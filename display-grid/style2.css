@@ -1,0 +1,74 @@
+.container {
+    width: 90%;
+    margin: 2% auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "cabecalho cabecalho"
+    "navegacao navegacao"
+    "principal principal"
+    "rodape rodape"
+}
+/* divs header */
+#camada1 {
+    position: relative;
+    width:30%;
+    height: 160px;
+    background-color: blue;
+}
+
+#camada2 {
+    position: relative;
+    width: 70%;
+    height: 160px;
+    background-color: red;
+}
+
+header {
+    grid-area: cabecalho;
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: red;
+    display: flex;
+    text-align: center;
+}
+
+nav {
+    grid-area: navegacao;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+main {
+    grid-area: principal;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+section {
+    position: relative;
+    width: 98%;
+    height: 380px;
+    background-color: yellow;
+}
+
+footer {
+    grid-area: rodape;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    text-align: center;
+}

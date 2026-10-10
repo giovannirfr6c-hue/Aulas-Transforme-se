@@ -1,0 +1,17 @@
+
+.container {
+    display: grid;
+/* colunas */
+grid-template-columns: auto auto ;
+/* linhas */
+grid-template-rows: auto;
+grid-template-areas:
+}
+
+
+.item {
+    background-color: #048;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
